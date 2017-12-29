@@ -7,21 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0449A2251FEF9ECD00671038 /* ExpandVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0449A2241FEF9ECD00671038 /* ExpandVC.swift */; };
+		04608DF21FF24F6000491F91 /* mic.png in Resources */ = {isa = PBXBuildFile; fileRef = 04608DF11FF24F6000491F91 /* mic.png */; };
+		04608DF41FF24FFB00491F91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04608DF31FF24FFB00491F91 /* Assets.xcassets */; };
 		0465BD9A1FE260730027B661 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0465BD991FE260730027B661 /* AppDelegate.swift */; };
-		0465BD9C1FE260730027B661 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0465BD9B1FE260730027B661 /* ViewController.swift */; };
+		0465BD9C1FE260730027B661 /* Create Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0465BD9B1FE260730027B661 /* Create Post.swift */; };
 		0465BD9F1FE260730027B661 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0465BD9D1FE260730027B661 /* Main.storyboard */; };
-		0465BDA11FE260730027B661 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0465BDA01FE260730027B661 /* Assets.xcassets */; };
 		0465BDA41FE260730027B661 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0465BDA21FE260730027B661 /* LaunchScreen.storyboard */; };
+		0465BDD61FE261730027B661 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0465BDD51FE261730027B661 /* Images.xcassets */; };
+		0465BDD81FE263500027B661 /* PostFeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0465BDD71FE263500027B661 /* PostFeedVC.swift */; };
+		048CEBBF1FF24CF20055F7E1 /* Recorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048CEBBE1FF24CF20055F7E1 /* Recorder.swift */; };
+		04B243281FF279D800098950 /* VKCheckbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B243271FF279D800098950 /* VKCheckbox.swift */; };
+		04DD84F11FE39A8E00BDD9C8 /* imageCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DD84F01FE39A8E00BDD9C8 /* imageCollection.swift */; };
+		04DD84F31FE39FBA00BDD9C8 /* Image SelectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DD84F21FE39FBA00BDD9C8 /* Image SelectionVC.swift */; };
+		04E2EACA1FED08B300D878F7 /* Video SelectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E2EAC91FED08B300D878F7 /* Video SelectionVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0449A2241FEF9ECD00671038 /* ExpandVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpandVC.swift; sourceTree = "<group>"; };
+		04608DF11FF24F6000491F91 /* mic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mic.png; sourceTree = "<group>"; };
+		04608DF31FF24FFB00491F91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0465BD961FE260730027B661 /* Zlesa_V1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zlesa_V1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0465BD991FE260730027B661 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0465BD9B1FE260730027B661 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0465BD9B1FE260730027B661 /* Create Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Create Post.swift"; sourceTree = "<group>"; };
 		0465BD9E1FE260730027B661 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0465BDA01FE260730027B661 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0465BDA31FE260730027B661 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0465BDA51FE260730027B661 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0465BDD51FE261730027B661 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0465BDD71FE263500027B661 /* PostFeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostFeedVC.swift; sourceTree = "<group>"; };
+		048CEBBE1FF24CF20055F7E1 /* Recorder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Recorder.swift; path = ../../../../Downloads/Suri/Suri/Recorder.swift; sourceTree = "<group>"; };
+		04B243271FF279D800098950 /* VKCheckbox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VKCheckbox.swift; sourceTree = "<group>"; };
+		04DD84F01FE39A8E00BDD9C8 /* imageCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageCollection.swift; sourceTree = "<group>"; };
+		04DD84F21FE39FBA00BDD9C8 /* Image SelectionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Image SelectionVC.swift"; sourceTree = "<group>"; };
+		04E2EAC91FED08B300D878F7 /* Video SelectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Video SelectionVC.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +56,8 @@
 		0465BD8D1FE260730027B661 = {
 			isa = PBXGroup;
 			children = (
+				0465BDD51FE261730027B661 /* Images.xcassets */,
+				04608DF11FF24F6000491F91 /* mic.png */,
 				0465BD981FE260730027B661 /* Zlesa_V1 */,
 				0465BD971FE260730027B661 /* Products */,
 			);
@@ -54,12 +74,19 @@
 		0465BD981FE260730027B661 /* Zlesa_V1 */ = {
 			isa = PBXGroup;
 			children = (
+				04608DF31FF24FFB00491F91 /* Assets.xcassets */,
+				04B243271FF279D800098950 /* VKCheckbox.swift */,
 				0465BD991FE260730027B661 /* AppDelegate.swift */,
-				0465BD9B1FE260730027B661 /* ViewController.swift */,
+				0465BD9B1FE260730027B661 /* Create Post.swift */,
+				0465BDD71FE263500027B661 /* PostFeedVC.swift */,
+				04DD84F21FE39FBA00BDD9C8 /* Image SelectionVC.swift */,
+				04E2EAC91FED08B300D878F7 /* Video SelectionVC.swift */,
+				0449A2241FEF9ECD00671038 /* ExpandVC.swift */,
+				048CEBBE1FF24CF20055F7E1 /* Recorder.swift */,
 				0465BD9D1FE260730027B661 /* Main.storyboard */,
-				0465BDA01FE260730027B661 /* Assets.xcassets */,
 				0465BDA21FE260730027B661 /* LaunchScreen.storyboard */,
 				0465BDA51FE260730027B661 /* Info.plist */,
+				04DD84F01FE39A8E00BDD9C8 /* imageCollection.swift */,
 			);
 			path = Zlesa_V1;
 			sourceTree = "<group>";
@@ -124,8 +151,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0465BDA41FE260730027B661 /* LaunchScreen.storyboard in Resources */,
-				0465BDA11FE260730027B661 /* Assets.xcassets in Resources */,
+				0465BDD61FE261730027B661 /* Images.xcassets in Resources */,
 				0465BD9F1FE260730027B661 /* Main.storyboard in Resources */,
+				04608DF21FF24F6000491F91 /* mic.png in Resources */,
+				04608DF41FF24FFB00491F91 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,8 +165,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0465BD9C1FE260730027B661 /* ViewController.swift in Sources */,
+				0465BD9C1FE260730027B661 /* Create Post.swift in Sources */,
+				0449A2251FEF9ECD00671038 /* ExpandVC.swift in Sources */,
+				04DD84F31FE39FBA00BDD9C8 /* Image SelectionVC.swift in Sources */,
+				04E2EACA1FED08B300D878F7 /* Video SelectionVC.swift in Sources */,
+				0465BDD81FE263500027B661 /* PostFeedVC.swift in Sources */,
 				0465BD9A1FE260730027B661 /* AppDelegate.swift in Sources */,
+				048CEBBF1FF24CF20055F7E1 /* Recorder.swift in Sources */,
+				04B243281FF279D800098950 /* VKCheckbox.swift in Sources */,
+				04DD84F11FE39A8E00BDD9C8 /* imageCollection.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,12 +247,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = "";
 			};
 			name = Debug;
 		};
@@ -262,10 +299,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = "";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -275,6 +313,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HC653Z55Q6;
 				INFOPLIST_FILE = Zlesa_V1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ace.Zlesa-V1";
@@ -289,6 +328,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HC653Z55Q6;
 				INFOPLIST_FILE = Zlesa_V1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ace.Zlesa-V1";

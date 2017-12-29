@@ -8,11 +8,15 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class Create_Post: UIViewController {
 
+   
+    @IBOutlet weak var viewCreatePost: UIView!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        viewCreatePost.layer.cornerRadius = 3
+        viewCreatePost.layer.masksToBounds = true
     }
 
     override func didReceiveMemoryWarning() {
