@@ -93,7 +93,7 @@ class CollectionVC_Image: UIViewController,UICollectionViewDelegate,UICollection
                     imageManager.requestImage(for: fetchResult.object(at: i) as! PHAsset, targetSize: CGSize(width : 112, height : 116), contentMode: .aspectFill , options:
                         requestOptions, resultHandler: { (image, error) in
                             self.imageArray.append(image!)
-                            
+                            self.collectionView.reloadData()
                             
                     })
                 }
@@ -116,6 +116,8 @@ class CollectionVC_Image: UIViewController,UICollectionViewDelegate,UICollection
         count = count + 1
         print("c\(count)")
         
+        NotificationCenter.default.post(name: NSNotification.Name(rawValue: "load"), object: nil)
+        
     }
     
     func collectionView(_ collectionView: UICollectionView, didDeselectItemAt indexPath: IndexPath) {
@@ -126,6 +128,7 @@ class CollectionVC_Image: UIViewController,UICollectionViewDelegate,UICollection
         collectionView.reloadItems(at: [indexPath])
         count = count - 1
         print("c\(count)")
+        NotificationCenter.default.post(name: NSNotification.Name(rawValue: "load"), object: nil)
     }
     
      func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
@@ -153,6 +156,7 @@ class CollectionVC_Image: UIViewController,UICollectionViewDelegate,UICollection
             cell.isSelected=false
             imageViewTick.isHidden=true
         }
+        
         return cell
     }
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {

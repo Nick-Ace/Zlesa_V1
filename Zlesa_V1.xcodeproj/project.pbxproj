@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04051EDA1FFCA83F00CEC440 /* selectedImageCollectionViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04051ED91FFCA83F00CEC440 /* selectedImageCollectionViewVC.swift */; };
 		0449A2251FEF9ECD00671038 /* ExpandVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0449A2241FEF9ECD00671038 /* ExpandVC.swift */; };
 		04608DF21FF24F6000491F91 /* mic.png in Resources */ = {isa = PBXBuildFile; fileRef = 04608DF11FF24F6000491F91 /* mic.png */; };
 		04608DF41FF24FFB00491F91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04608DF31FF24FFB00491F91 /* Assets.xcassets */; };
@@ -21,9 +22,12 @@
 		04DD84F11FE39A8E00BDD9C8 /* imageCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DD84F01FE39A8E00BDD9C8 /* imageCollection.swift */; };
 		04DD84F31FE39FBA00BDD9C8 /* Image SelectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DD84F21FE39FBA00BDD9C8 /* Image SelectionVC.swift */; };
 		04E2EACA1FED08B300D878F7 /* Video SelectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E2EAC91FED08B300D878F7 /* Video SelectionVC.swift */; };
+		04F3B8661FFA0A78003B9613 /* viewExpandVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F3B8651FFA0A78003B9613 /* viewExpandVC.swift */; };
+		1FFAFBAB08039290B0D2AE07 /* Pods_Zlesa_V1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EE8B9757C74AEDC7064D5AC /* Pods_Zlesa_V1.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04051ED91FFCA83F00CEC440 /* selectedImageCollectionViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = selectedImageCollectionViewVC.swift; sourceTree = "<group>"; };
 		0449A2241FEF9ECD00671038 /* ExpandVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpandVC.swift; sourceTree = "<group>"; };
 		04608DF11FF24F6000491F91 /* mic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mic.png; sourceTree = "<group>"; };
 		04608DF31FF24FFB00491F91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -40,6 +44,10 @@
 		04DD84F01FE39A8E00BDD9C8 /* imageCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageCollection.swift; sourceTree = "<group>"; };
 		04DD84F21FE39FBA00BDD9C8 /* Image SelectionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Image SelectionVC.swift"; sourceTree = "<group>"; };
 		04E2EAC91FED08B300D878F7 /* Video SelectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Video SelectionVC.swift"; sourceTree = "<group>"; };
+		04F3B8651FFA0A78003B9613 /* viewExpandVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewExpandVC.swift; sourceTree = "<group>"; };
+		1EE8B9757C74AEDC7064D5AC /* Pods_Zlesa_V1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Zlesa_V1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AF779615403EF648F5DE49E /* Pods-Zlesa_V1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zlesa_V1.release.xcconfig"; path = "Pods/Target Support Files/Pods-Zlesa_V1/Pods-Zlesa_V1.release.xcconfig"; sourceTree = "<group>"; };
+		5040649AFC5E76F6CDD06857 /* Pods-Zlesa_V1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zlesa_V1.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Zlesa_V1/Pods-Zlesa_V1.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FFAFBAB08039290B0D2AE07 /* Pods_Zlesa_V1.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +69,8 @@
 				04608DF11FF24F6000491F91 /* mic.png */,
 				0465BD981FE260730027B661 /* Zlesa_V1 */,
 				0465BD971FE260730027B661 /* Products */,
+				8ED2926533D0EB91A8AFED9E /* Pods */,
+				CFBD41B9D3073619EE5B3317 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -87,8 +98,27 @@
 				0465BDA21FE260730027B661 /* LaunchScreen.storyboard */,
 				0465BDA51FE260730027B661 /* Info.plist */,
 				04DD84F01FE39A8E00BDD9C8 /* imageCollection.swift */,
+				04F3B8651FFA0A78003B9613 /* viewExpandVC.swift */,
+				04051ED91FFCA83F00CEC440 /* selectedImageCollectionViewVC.swift */,
 			);
 			path = Zlesa_V1;
+			sourceTree = "<group>";
+		};
+		8ED2926533D0EB91A8AFED9E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5040649AFC5E76F6CDD06857 /* Pods-Zlesa_V1.debug.xcconfig */,
+				2AF779615403EF648F5DE49E /* Pods-Zlesa_V1.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CFBD41B9D3073619EE5B3317 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1EE8B9757C74AEDC7064D5AC /* Pods_Zlesa_V1.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -98,9 +128,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0465BDA81FE260730027B661 /* Build configuration list for PBXNativeTarget "Zlesa_V1" */;
 			buildPhases = (
+				D6ECCED5F4F3C66D16438775 /* [CP] Check Pods Manifest.lock */,
 				0465BD921FE260730027B661 /* Sources */,
 				0465BD931FE260730027B661 /* Frameworks */,
 				0465BD941FE260730027B661 /* Resources */,
+				BDC1D10CFCBE44C13B636256 /* [CP] Embed Pods Frameworks */,
+				B96ADC3AB3F9EDB354CEC6C3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -160,6 +193,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B96ADC3AB3F9EDB354CEC6C3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Zlesa_V1/Pods-Zlesa_V1-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDC1D10CFCBE44C13B636256 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Zlesa_V1/Pods-Zlesa_V1-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Zlesa_V1/Pods-Zlesa_V1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6ECCED5F4F3C66D16438775 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Zlesa_V1-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0465BD921FE260730027B661 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -169,7 +256,9 @@
 				0449A2251FEF9ECD00671038 /* ExpandVC.swift in Sources */,
 				04DD84F31FE39FBA00BDD9C8 /* Image SelectionVC.swift in Sources */,
 				04E2EACA1FED08B300D878F7 /* Video SelectionVC.swift in Sources */,
+				04051EDA1FFCA83F00CEC440 /* selectedImageCollectionViewVC.swift in Sources */,
 				0465BDD81FE263500027B661 /* PostFeedVC.swift in Sources */,
+				04F3B8661FFA0A78003B9613 /* viewExpandVC.swift in Sources */,
 				0465BD9A1FE260730027B661 /* AppDelegate.swift in Sources */,
 				048CEBBF1FF24CF20055F7E1 /* Recorder.swift in Sources */,
 				04B243281FF279D800098950 /* VKCheckbox.swift in Sources */,
@@ -310,6 +399,7 @@
 		};
 		0465BDA91FE260730027B661 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5040649AFC5E76F6CDD06857 /* Pods-Zlesa_V1.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -325,6 +415,7 @@
 		};
 		0465BDAA1FE260730027B661 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AF779615403EF648F5DE49E /* Pods-Zlesa_V1.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
